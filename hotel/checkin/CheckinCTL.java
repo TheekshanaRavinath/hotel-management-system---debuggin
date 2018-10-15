@@ -59,7 +59,7 @@ public class CheckinCTL {
 			Room room = booking.getRoom();
 			if (!room.isReady()) {
 				checkInUI.displayMessage("Room is not ready, sorry");
-				//cancel();
+				cancel();
 			}
 			else {
 				Guest guest = booking.getGuest();
