@@ -190,6 +190,4 @@ public class BookingCTL {
 		bookingUI.displayMessage("Booking completed");
 	}
 
-	
-
 }
